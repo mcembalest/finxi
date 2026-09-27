@@ -56,6 +56,10 @@ similar to a GAN, except instead of a discriminator learning to tell apart real 
 
 my gen definition was based on the self play paper itself, not FINXI! maybe GEN is more general than prediction and creation, but anything taught.
 
+GEN is 1) generator/generative, 2) general, 3) (maybe someday) genetic (e.g. GEPA genetic pareto)
+
+the reason i consider GEN more general than GAN is 1) wordplay GEN is GENeral 2) many adversarial coaches think they are being educational and often...they can be correct, and some great teachers can switch on adversariality occasionally quite effectively
+
 apprentice for learner, and craftsman for teacher
 
 only one teacher and one learner

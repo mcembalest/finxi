@@ -4,7 +4,7 @@ FINXI expresses a theory of bounded creativity.
 
 ## Section 2: GEN
 
-A GEN (Generative Educational Network) unifies GANs, teacher-student networks, and self-play.
+A GEN (Generative Educational Network) is a general mechanism for teaching a learner.
 
 ## Section 3: ICARIA
 
