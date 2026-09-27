@@ -34,7 +34,9 @@ I dont want to restrict the apprentice to making circuits, i think they should b
 
 ### comprehension
 
-aixi was always flawed and so was anything that ever tried to monomaniacally impose an idea of scalar utility or reward. i think in the jurgen schmidhuberian sense, in the karl fristonian sense, in the david chalmersian sense, in the charles darwinian and erasmus darwinian sense, in the kantian and jungian sense, we have plenty of evidence that creation for fun's sake on its own can exist organically as the way a living thing intervenes on objective experience to bring about surprise and delight as subjective experience.
+aixi was always flawed and so was anything that ever tried to monomaniacally impose an idea of scalar utility or reward. in the charles darwinian and erasmus darwinian sense, in the kantian and jungian sense, and in the david chalmersian sense, we have plenty of evidence that creation for fun's sake on its own can exist organically as the way a living thing intervenes on objective experience to bring about surprise and delight as subjective experience.
+
+jurgen schmidhuber and karl friston are points of comparison, not support: schmidhuber formalizes fun as compression progress, a scalar, and friston's free energy principle has living things act to minimize surprise.
 
 i think in a pythagorean sense, in a martin buber sense, in a Logos sense, it is inherently about comprehension of existence, not compression. i really believe in comprehension's supremacy, not compression's. this means we must view the comprehension of existence, beauty, meaning, etc as its own reward.
 
@@ -50,7 +52,7 @@ It plays upon a basic suspicion people all over the world have semicorrectly had
 
 gen should really be the meat of the paper, with simple clear empirical work, not theory.
 
-GEN (Generative Educational Network). Thats the pair. maybe the interesting exploration is whether a GEN in practice can one day be the most creative agent in the form of the apprentice (FINXI)
+GEN (Generative Educational Network). Thats the pair. maybe the interesting exploration is whether a GEN in practice can one day be the creative agent in the form of the apprentice (FINXI)
 
 similar to a GAN, except instead of a discriminator learning to tell apart real vs fake generations from an adversarial generator, a learner just predicts the byte sequences taught by an educational generator
 
@@ -62,7 +64,7 @@ the reason i consider GEN more general than GAN is 1) wordplay GEN is GENeral 2)
 
 apprentice for learner, and craftsman for teacher
 
-there is just the GEN in our implementation, which will consist of two networks, the teacher and the learner. I dont know if the right thing to say is if they are two halves of the same network, or if they are two connected networks.
+there is just the GEN in our implementation, which will consist of two connected networks, the teacher and the learner.
 
 recognition will just be up to them, and they can build tools to enable further recognition
 
@@ -104,7 +106,7 @@ byte, string, int, frac (ratio, hence all floats), line (geometric primitive of 
 
 creations sit idle in storage (unless some of them operate on their own as machines, of course).
 
-rosenblum's classic 'the design and implementation of a log structured filesystem'. in addition to some digital library of babel where they can look up all possible strings, they could have log as the primitive instead of git (which is a way of doing logs, so to speak, except maybe logs matter more than commits for our creators in the workshop)
+rosenblum's classic 'the design and implementation of a log structured filesystem'. they could have log as the primitive instead of git (which is a way of doing logs, so to speak, except maybe logs matter more than commits for our creators in the workshop)
 
 solomonoff's prior is an index, not a 'shelving', of Babel via length of generating programs instead of via texts.
 
@@ -132,9 +134,11 @@ the icaria story asks whether the idea can be recognized and understood more eff
 
 it is an unbounded workshop. everything ever made is somewhere, and who knows what might fit together.
 
-they have access to the online library of babel (borges) where every sequence that could exist has already been written down and is stored. Their workshop is different, the creations dont exist as potentialities, they must be created to exist.
+they have access to the online library of babel (borges), generalized from every possible book of 410 pages to every finite string, all already written down and stored. Their workshop is different, the creations dont exist as potentialities, they must be created to exist.
 
 the library of babel is theory, this can be the workshop of icaria
+
+umberto eco 'Library as a Model for Culture: Preserving, Filtering, Deleting and Recovering.'
 
 icaria is, in my borges mind and my kafka mind, the name of the unbounded workshop daedalus trapped himself in to hide.
 
