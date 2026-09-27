@@ -118,6 +118,8 @@ I dont need to train models with GPUs inherently at all! We can still explore th
 
 if we just care about the log, it might mean it makes it easier for other people to replicate if we can make our work feel as simple as a sqlite log of work and creations. its possible a sqlite of pointers to sqlites (durable objects made simple) is the simplest thing here.
 
+it can just be one log but everything can be typed in the log as an event, a communication, or a creation. Simple.
+
 set up the environment (what we will later call the workshop of icaria) for unbounded creation storage, setting up the models to actually save creations, tinker, compose creations
 
 ### have they created X yet?
@@ -133,6 +135,8 @@ rediscovery is important, in order to really make this experiment pop, we will l
 the icaria story asks whether the idea can be recognized and understood more effectively via analogy and story.
 
 it is an unbounded workshop. everything ever made is somewhere, and who knows what might fit together.
+
+open-ended is indeed what I basically had in mind, ICARIA is just a workshop, and there will be many potential uses of the creations, but from their POV the work is open ended.
 
 they have access to the online library of babel (borges), generalized from every possible book of 410 pages to every finite string, all already written down and stored. Their workshop is different, the creations dont exist as potentialities, they must be created to exist.
 
