@@ -1,6 +1,6 @@
 ## Section 1: FINXI
 
-FINXI represents a theory of computationally bounded creativity.
+FINXI expresses a theory of computationally bounded creativity.
 
 ## Section 2: GEN
 
