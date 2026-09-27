@@ -62,6 +62,12 @@ the reason i consider GEN more general than GAN is 1) wordplay GEN is GENeral 2)
 
 apprentice for learner, and craftsman for teacher
 
+there is just the GEN in our implementation, which will consist of two networks, the teacher and the learner. I dont know if the right thing to say is if they are two halves of the same network, or if they are two connected networks.
+
+recognition will just be up to them, and they can build tools to enable further recognition
+
+we the people on the outside will just be able to search their log and creations ourself
+
 only one teacher and one learner
 
 both the teacher and the learner in the GEN need to be able to say finxi honestly, that they have both created, ideally independently with a useful story usually being the teacher making something and then the learner being shown the thing and trying to make it themself and the teacher being a world class master, apprentice, tutor, magician.
@@ -100,7 +106,21 @@ creations sit idle in storage (unless some of them operate on their own as machi
 
 rosenblum's classic 'the design and implementation of a log structured filesystem'. in addition to some digital library of babel where they can look up all possible strings, they could have log as the primitive instead of git (which is a way of doing logs, so to speak, except maybe logs matter more than commits for our creators in the workshop)
 
+solomonoff's prior is an index, not a 'shelving', of Babel via length of generating programs instead of via texts.
+
+Chaitin and algorithmic information theory has important things to say here.
+
+the agents are not able to look up strings directly in their digital index over Babel, so I suppose they are searching in the book of all programs.
+
+I dont need to train models with GPUs inherently at all! We can still explore the concept in general. My goal is not to be a conventional AI paper.
+
+if we just care about the log, it might mean it makes it easier for other people to replicate if we can make our work feel as simple as a sqlite log of work and creations. its possible a sqlite of pointers to sqlites (durable objects made simple) is the simplest thing here.
+
 set up the environment (what we will later call the workshop of icaria) for unbounded creation storage, setting up the models to actually save creations, tinker, compose creations
+
+### have they created X yet?
+
+take inspiration from the voyager paper headline chart: have they created X yet? We could then show increasingly cool math objects appear organically over time, and we could study the order in which things were created, e.g. if kernels were invented way before circuits or vice versa that would be really interesting. Also, if we could run the entire history of ICARIA multiple times, we could see if there is any variance in the order of creation!
 
 ### rediscovery
 
