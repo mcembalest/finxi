@@ -1,0 +1,12 @@
+# references
+
+- [legg2007-universal-intelligence](legg2007-universal-intelligence-0712.3329.pdf): Legg & Hutter, *Universal Intelligence: A Definition of Machine Intelligence* (2007). The formal definition of intelligence behind AIXI, the universal predictor FINXI is named against, built on scalar reward.
+- [leike2015-bad-universal-priors](leike2015-bad-universal-priors-1510.04931.pdf): Leike & Hutter, *Bad Universal Priors and Notions of Optimality* (2015). AIXI's optimality depends on the choice of universal Turing machine; AIXI is a relative theory.
+- [schmidhuber2008-compression-progress](schmidhuber2008-compression-progress-0812.4360.pdf): Schmidhuber, *Driven by Compression Progress* (2008). The compression theory of creativity and fun, which FINXI answers with creation and comprehension.
+- [finzi2026-epiplexity](finzi2026-epiplexity-2601.03220.pdf): Finzi, Qiu, Jiang, Izmailov, Kolter, Wilson, *From Entropy to Epiplexity* (2026). Structure a computationally bounded observer can learn, and how computation creates it.
+- [merrill2023-tale-of-two-circuits](merrill2023-tale-of-two-circuits-2303.11873.pdf): Merrill, Tsilivis, Shukla, *A Tale of Two Circuits: Grokking as Competition of Sparse and Dense Subnetworks* (2023). A memorizing subnetwork and a rule-implementing subnetwork compete inside one model; the rule winning is the shift from looking things up to having built something.
+- [goodfellow2014-gan](goodfellow2014-gan-1406.2661.pdf): Goodfellow et al., *Generative Adversarial Networks* (2014). The GAN that GEN is named against.
+- [cowsik2026-self-play-zero-data](cowsik2026-self-play-zero-data-2609.30063.pdf): Cowsik, Dolev, Li, De Luca, Cohen, Goodman, Levine, *Self-Play Pretraining with Zero Data* (2026). A generator teaches a learner from zero data; the working example of a GEN.
+- [weiss2021-thinking-like-transformers](weiss2021-thinking-like-transformers-2106.06981.pdf): Weiss, Goldberg, Yahav, *Thinking Like Transformers* (2021). RASP, a language for what a transformer computes.
+- [zhang2023-omni](zhang2023-omni-2306.01711.pdf): Zhang, Lehman, Stanley, Clune, *OMNI: Open-endedness via Models of human Notions of Interestingness* (2023). Deciding what is interesting to make next.
+- [wang2023-voyager](wang2023-voyager-2305.16291.pdf): Wang et al., *Voyager: An Open-Ended Embodied Agent with Large Language Models* (2023). An agent that saves, retrieves, and composes its own creations as a growing library.
