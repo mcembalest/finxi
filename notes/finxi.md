@@ -54,6 +54,8 @@ GEN (Generative Educational Network). Thats the pair. maybe the interesting expl
 
 similar to a GAN, except instead of a discriminator learning to tell apart real vs fake generations from an adversarial generator, a learner just predicts the byte sequences taught by an educational generator
 
+my gen definition was based on the self play paper itself, not FINXI! maybe GEN is more general than prediction and creation, but anything taught.
+
 apprentice for learner, and craftsman for teacher
 
 only one teacher and one learner
@@ -63,6 +65,10 @@ both the teacher and the learner in the GEN need to be able to say finxi honestl
 the learner can go and honestly and completely on their own say finxi about something before the teacher does, and then the teacher can with delight choose how to teach from their, leaping on the opportunity.
 
 there is no separate judge, there is only the teacher and the laerner, and the teacher's feedback that is communicated to the learner, plus the objective behavior of the creation itself inside the workshop, are the sources that inform whether a claim to finxi is honest.
+
+saying finxi for a model just means showing the other model something or mentioning its existence once it is sitting in storage after being created.
+
+the agents' objectives are nonscalar, but all their measurements with their own creations and primitives and data types are of course numerical in some sense or in a direct sense.
 
 Both decide whats interesting and useful, but also both need to be able to experience surprise over time as things compose in unexpected ways.
 
