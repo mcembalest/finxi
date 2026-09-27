@@ -1,10 +1,10 @@
 # finxi
 
-a craftsperson's apprentice in an infinite workshop
+a craftsperson's apprentice in an unbounded workshop
 
 what i have not created i do not understand
 
-introduce FINXI as my AIXI and to introduce the concept (e.g. maybe as a section at the end of the paper) of the Workshop of Icaria, to convey the image of the FINXI model as the craftsperson's apprentice in an infinite workshop with the craftsperson having a nice silent backstory like a remorseful atoneful Daedalus and with the tools corresponding to the exact primitives we want to give our models to use at start.
+introduce FINXI as my AIXI and to introduce the concept (e.g. maybe as a section at the end of the paper) of the Workshop of Icaria, to convey the image of the FINXI model as the craftsperson's apprentice in an unbounded workshop with the craftsperson having a nice silent backstory like a remorseful atoneful Daedalus and with the tools corresponding to the exact primitives we want to give our models to use at start.
 
 three sections in this paper. FINXI, GEN, and ICARIA. all three sections go at the same idea, but the first goes at it as pure theory and names it FINXI like AIXI, the second goes at it as practical implementation and names it GEN like GAN, the third goes at it as allegorical story and names it ICARIA like ICARUS.
 
@@ -94,7 +94,9 @@ byte, string, int, frac (ratio, hence all floats), line (geometric primitive of 
 
 creations sit idle in storage (unless some of them operate on their own as machines, of course).
 
-set up the environment (what we will later call the workshop of icaria) for infinite creation storage, setting up the models to actually save creations, tinker, compose creations
+rosenblum's classic 'the design and implementation of a log structured filesystem'. in addition to some digital library of babel where they can look up all possible strings, they could have log as the primitive instead of git (which is a way of doing logs, so to speak, except maybe logs matter more than commits for our creators in the workshop)
+
+set up the environment (what we will later call the workshop of icaria) for unbounded creation storage, setting up the models to actually save creations, tinker, compose creations
 
 ### rediscovery
 
@@ -104,13 +106,13 @@ rediscovery is important, in order to really make this experiment pop, we will l
 
 the icaria story asks whether the idea can be recognized and understood more effectively via analogy and story.
 
-it is an infinite workshop. everything ever made is somewhere, and who knows what might fit together.
+it is an unbounded workshop. everything ever made is somewhere, and who knows what might fit together.
 
 they have access to the online library of babel (borges) where every sequence that could exist has already been written down and is stored. Their workshop is different, the creations dont exist as potentialities, they must be created to exist.
 
 the library of babel is theory, this can be the workshop of icaria
 
-icaria is, in my borges mind and my kafka mind, the name of the infinite workshop daedalus trapped himself in to hide.
+icaria is, in my borges mind and my kafka mind, the name of the unbounded workshop daedalus trapped himself in to hide.
 
 when icarus fell, daedalus mourned him by naming things like seas and islands after him.
 
@@ -118,7 +120,23 @@ when icarus fell, daedalus mourned him by naming things like seas and islands af
 >
 > Ovid, *Metamorphoses* VIII, tr. Henry T. Riley (Project Gutenberg #26073)
 
-it is an infinite workshop, daedalus' atonement.
+it is an unbounded workshop, daedalus' atonement.
+
+we should no longer consider icaria an infinite workshop
+
+riemannian's distinction
+
+reword infinite to unbounded when appropriate, this will help us distinguish the boundedness of the model computation from the unboundedness of log storage
+
+bounded computation, bounded intelligence, and bounded creativity
+
+> In the extension of space-construction to the infinitely great, we must distinguish between unboundedness and infinite extent, the former belongs to the extent relations, the latter to the measure-relations.
+>
+> Riemann, *On the Hypotheses which lie at the Bases of Geometry* (1854), tr. W. K. Clifford
+
+this use of unlimited vs finite/infinite is helped by Riemann's 1854 lecture on foundations of differential geometry
+
+I think Riemann helped me see that endlessness and sizelessness are distinct! I can trap an infinitely branching tree inside a finite snowglobe.
 
 ### daedalus
 
