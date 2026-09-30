@@ -2,6 +2,8 @@
 
 a craftsperson's apprentice in an unbounded workshop
 
+The workshop/fingere word choice is meant to emphasize CREATION over PREDICTION
+
 what i have not created i do not understand
 
 introduce FINXI as my AIXI and to introduce the concept (e.g. maybe as a section at the end of the paper) of the Workshop of Icaria, to convey the image of the FINXI model as the craftsperson's apprentice in an unbounded workshop with the craftsperson having a nice silent backstory like a remorseful atoneful Daedalus and with the tools corresponding to the exact primitives we want to give our models to use at start.
@@ -15,6 +17,10 @@ aixi is a claim to a universal predictor.
 they call AIXI the universally intelligent agent
 
 FINXI, its just a creative agent
+
+FINXI is the theory of a creative agent the way that AIXI is the theory of a predictive agent
+
+FINXI is what a single model/agent says when they honestly report that they have created something
 
 not god vibes.
 
@@ -34,9 +40,11 @@ I dont want to restrict the apprentice to making circuits, i think they should b
 
 ### comprehension
 
-aixi was always flawed and so was anything that ever tried to monomaniacally impose an idea of scalar utility or reward. in the charles darwinian and erasmus darwinian sense, in the kantian and jungian sense, and in the david chalmersian sense, we have plenty of evidence that creation for fun's sake on its own can exist organically as the way a living thing intervenes on objective experience to bring about surprise and delight as subjective experience.
+in the charles darwinian and erasmus darwinian sense, in the kantian and jungian sense, and in the david chalmersian sense, we have plenty of evidence that creation for fun's sake on its own can exist organically as the way a living thing intervenes on objective experience to bring about surprise and delight as subjective experience.
 
-jurgen schmidhuber and karl friston are points of comparison, not support: schmidhuber formalizes fun as compression progress, a scalar, and friston's free energy principle has living things act to minimize surprise.
+jurgen schmidhuber and karl friston are points of comparison, not support: schmidhuber formalizes fun as compression progress, and friston's free energy principle has living things act to minimize surprise.
+
+for POWERPLAY I am not a compression maximally personally, so that may exactly be the thing we dont borrow, and it may be because i make some argument about comprehension over compression, but TBD on that.
 
 i think in a pythagorean sense, in a martin buber sense, in a Logos sense, it is inherently about comprehension of existence, not compression. i really believe in comprehension's supremacy, not compression's. this means we must view the comprehension of existence, beauty, meaning, etc as its own reward.
 
@@ -52,7 +60,17 @@ It plays upon a basic suspicion people all over the world have semicorrectly had
 
 gen should really be the meat of the paper, with simple clear empirical work, not theory.
 
-GEN (Generative Educational Network). Thats the pair. maybe the interesting exploration is whether a GEN in practice can one day be the creative agent in the form of the apprentice (FINXI)
+we dont need to start with truly zero data. The point of that paper is just that scaling pretraining data isnt necessarily the thing needed to scale.
+
+GEN (Generative Educational Network)
+
+GEN refers to any general educational network, though we will implement a GAN style / Cowsik paper style GEN.
+
+neither FINXI or GEN requires a pair. GEN can in theory involve any number of learner agents in a system, and they can all be both teachers and learners
+
+for now we should follow the self-play pretraining from zero data paper pretty much for pretraining. the cowsik paper has a goal of showing a more general approach to pretraining, so we should think about whether we can better focus OUR PARTICULAR GOAL since it is NOT the exact same as theirs, though we take inspiration.
+
+the baselines we should implement for ourself to study as a baseline running here on the laptop, just POET? Also POWERPLAY?
 
 similar to a GAN, except instead of a discriminator learning to tell apart real vs fake generations from an adversarial generator, a learner just predicts the byte sequences taught by an educational generator
 
@@ -70,7 +88,9 @@ recognition will just be up to them, and they can build tools to enable further 
 
 we the people on the outside will just be able to search their log and creations ourself
 
-only one teacher and one learner
+we shouldnt overclaim what we will do yet. plan for the minimum GEN to be teacher learner, then get to a good state with a two person GEN, then at that point we extend to multiple agents as learners, or even experiment with M teachers N learners, then maybe we broaden the nature of the teacher/student or craftsman/apprentice binary.
+
+GEN extends to N learners, and having a teacher (remember magician) aka craftsman in charge is what we speculate is better than just swarm or simply some kind of work overseer.
 
 both the teacher and the learner in the GEN need to be able to say finxi honestly, that they have both created, ideally independently with a useful story usually being the teacher making something and then the learner being shown the thing and trying to make it themself and the teacher being a world class master, apprentice, tutor, magician.
 
@@ -79,8 +99,6 @@ the learner can go and honestly and completely on their own say finxi about some
 there is no separate judge, there is only the teacher and the laerner, and the teacher's feedback that is communicated to the learner, plus the objective behavior of the creation itself inside the workshop, are the sources that inform whether a claim to finxi is honest.
 
 saying finxi for a model just means showing the other model something or mentioning its existence once it is sitting in storage after being created.
-
-the agents' objectives are nonscalar, but all their measurements with their own creations and primitives and data types are of course numerical in some sense or in a direct sense.
 
 Both decide whats interesting and useful, but also both need to be able to experience surprise over time as things compose in unexpected ways.
 
@@ -116,15 +134,17 @@ the agents are not able to look up strings directly in their digital index over 
 
 I dont need to train models with GPUs inherently at all! We can still explore the concept in general. My goal is not to be a conventional AI paper.
 
-if we just care about the log, it might mean it makes it easier for other people to replicate if we can make our work feel as simple as a sqlite log of work and creations. its possible a sqlite of pointers to sqlites (durable objects made simple) is the simplest thing here.
+if we just care about the log, it might mean it makes it easier for other people to replicate if we can make our work feel as simple as a sqlite log of work and creations.
 
-it can just be one log but everything can be typed in the log as an event, a communication, or a creation. Simple.
+just one log, everything can be typed in the log as an event, a communication, or a creation. Simple.
 
 set up the environment (what we will later call the workshop of icaria) for unbounded creation storage, setting up the models to actually save creations, tinker, compose creations
 
 ### have they created X yet?
 
 take inspiration from the voyager paper headline chart: have they created X yet? We could then show increasingly cool math objects appear organically over time, and we could study the order in which things were created, e.g. if kernels were invented way before circuits or vice versa that would be really interesting. Also, if we could run the entire history of ICARIA multiple times, we could see if there is any variance in the order of creation!
+
+only measure 'have they created X yet' for X that dont exist in the primitives we give them at training start.
 
 ### rediscovery
 
