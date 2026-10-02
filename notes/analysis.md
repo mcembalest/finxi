@@ -91,3 +91,26 @@
 - role: inspiration for S≠HEN
 - → "have they created X yet" over BPB
 - discrimination ↔ GAN discriminator ↔ honest finxi check?
+
+## datasets in the 20 references (skimmed via text + links; ✓ = link found in paper, ? = from memory, verify)
+- useful now
+  - grau-moya 2024: UTM / Solomonoff data generators, Chomsky-hierarchy tasks ✓ [neural_networks_solomonoff_induction](https://github.com/google-deepmind/neural_networks_solomonoff_induction), [chomsky](https://github.com/google-deepmind/neural_networks_chomsky_hierarchy)
+  - cowsik 2026: zero-shot eval set ✓ (no code link found)
+    - math: Metamath set.mm ✓ [metamath](https://github.com/metamath/) ← closest to "universal mathematical structure"
+    - code: AITDCC C source ✓ [aitdcc](https://github.com/AITDCC/aitdcc.github.io), GitHub Python
+    - text DCLM; images CIFAR-10; audio Speech Commands, ESC-50, PCM; MIDI Mutopia; DNA
+    - Table 1 sequence families (arithmetic, Fibonacci, geometric, quadratic, cubic) → template for X
+  - finzi 2026: epiplexity estimation code ✓ [epiplexity](https://github.com/shikaiqiu/epiplexity) → measure structure in the log; datasets used: OpenWebText, SlimPajama, Lichess positions, CIFAR-5M ✓
+  - müller 2022: PFN priors as data generators ? [TransformersCanDoBayesianInference](https://github.com/automl/TransformersCanDoBayesianInference); demo ✓ HF space
+- useful later
+  - eurekabench 2026: 26 tasks, 306 insight questions, simulators ✓ Zenodo [10.5281/zenodo.22110253](https://doi.org/10.5281/zenodo.22110253) (verify it is the benchmark release); GitHub + website linked
+  - kumar 2025: Picbreeder genomes (human open-ended creations) ✓ [fer](https://github.com/akarshkumar0101/fer)
+  - voyager 2023: skill library = example log of creations ? [MineDojo/Voyager](https://github.com/MineDojo/Voyager)
+  - poet 2019: environment generator ? [uber-research/poet](https://github.com/uber-research/poet)
+- not useful for finxi
+  - goodfellow 2014: MNIST, TFD, CIFAR-10
+  - sukhbaatar 2017: Mazebase, RLLab envs
+  - sorscher 2022: CIFAR-10, SVHN, ImageNet (pruning metrics; release ?)
+  - meng 2018: CCES 2016 survey (stats demo only)
+- no data: hutter, leike, solomonoff, chaitin, schmidhuber 2008, powerplay, hughes, schaeffer (thread)
+- not in refs but obvious for X: OEIS (integer sequences)
