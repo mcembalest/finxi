@@ -171,6 +171,10 @@ take inspiration from the voyager paper headline chart: have they created X yet?
 
 only measure 'have they created X yet' for X that dont exist in the primitives we give them at training start.
 
+EurekaBench https://arxiv.org/pdf/2610.00492 will be useful not for training inspiration but as evaluation data as a test of transfer from what we learn synthetically to real world test cases!
+
+we should cite this rylan schaeffer tweet https://x.com/RylanSchaeffer/status/2106082985032454155
+
 ### rediscovery
 
 rediscovery is important, in order to really make this experiment pop, we will look for some mechanism to be created organically within the workshop that allows the teacher and learner to decide whether a creation is a new creation or whether it already exists in the workshop, and to make similarity measurements, it would be so fucking hilarious if they reinvented something like category theory for this.

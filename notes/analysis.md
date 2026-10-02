@@ -68,3 +68,26 @@
 
 ## representation
 - same outputs, different internals; open-ended search → unified ([kumar2025](../references/kumar2025-fractured-entangled-representation-2505.11581.pdf))
+
+## eurekabench ([geng2026](../references/geng2026-eurekabench-2610.00492.pdf))
+- 26 tasks, 6 domains, 306 insight questions
+- scores: predictive accuracy (PA) vs scientific insight (SI)
+- best agents ≈ human PA (47.4 vs 48.8), far below human SI (42.4 vs 69.7)
+- role: eval data only, not method inspiration
+- scale mismatch: H100, 1,000 iterations, 4h, frontier LLM agents, simulator CLIs, LLM judges
+- tiny laptop GEN can't run it directly
+- possible transfer test: give an agent the workshop log/creations as a library → does SI change?
+- contamination: web blocked, pretraining exposure not ruled out
+
+## schaeffer: tokenizer myths ([thread](https://x.com/RylanSchaeffer/status/2106082985032454155))
+- BPB = tokens/byte × bits/token → not tokenizer-agnostic (random init prefers V≈24K)
+- lower BPB ≠ better model: random-init BPB varies with V, accuracy flat at chance
+- trilemma: only truth scores best / same predictions same score / untrained models tie → pick two
+- "BPB tells us about coding length, nothing else"
+- "intelligence is … discriminating correct from plausible-but-incorrect continuations" (his tin-foil-hat claim)
+- zero-data paper: scaling laws + transfer reported in BPB ([cowsik2026](../references/cowsik2026-self-play-zero-data-2609.30063.pdf) Figs 1, 2, 7)
+  - fixed byte vocab (256) → myth #1 mostly avoided within their comparisons
+  - myth #2 applies: BPB transfer ≠ downstream ability
+- role: inspiration for S≠HEN
+- → "have they created X yet" over BPB
+- discrimination ↔ GAN discriminator ↔ honest finxi check?
