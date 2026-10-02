@@ -26,6 +26,25 @@ not god vibes.
 
 dont use apprentice in section 1 finxi, section 1 finxi should really approach the theory of creativity and intelligence like hutter approached aixi.
 
+### propositions
+
+FINXI needs propositions
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
 ### creation
 
 Maybe creation is simply what we can talk about here. Taking primitives, creating/making something. construction is a bit formal, the same way 'formulation' might have been too formal relative to hutter's more familiar choice of intelligence
@@ -44,9 +63,13 @@ in the charles darwinian and erasmus darwinian sense, in the kantian and jungian
 
 jurgen schmidhuber and karl friston are points of comparison, not support: schmidhuber formalizes fun as compression progress, and friston's free energy principle has living things act to minimize surprise.
 
-for POWERPLAY I am not a compression maximally personally, so that may exactly be the thing we dont borrow, and it may be because i make some argument about comprehension over compression, but TBD on that.
+for POWERPLAY I am not a compression maximalist personally, so that may exactly be the thing we dont borrow, and it may be because i make some argument about comprehension over compression, but TBD on that.
 
 i think in a pythagorean sense, in a martin buber sense, in a Logos sense, it is inherently about comprehension of existence, not compression. i really believe in comprehension's supremacy, not compression's. this means we must view the comprehension of existence, beauty, meaning, etc as its own reward.
+
+I have never been convinced by the prevailing conventional wisdom that compression is all one needs, and that intelligence is just compression. Maybe intelligence is compression, but then my thinking brings me to the notion of what lies beyond intelligence/compression. I believe the word that best characterizes it is comprehension. What is funny to me personally is that this is a slightly uncompressed version of the word 'compression' from a certain POV, if you replace the first s with hen. Therefore my personal joky of a shorthand for the question is S=HEN? So if 'S=HEN' then this just means compression is the literally only way to comprehend. But if 'S=/=HEN' then that means comprehension is a more general phenomenon than compression.
+
+I want to build off the self-play, schmidhuber, etc lineage of research, but I myself just am not a compression maximalist, I believe that comprehension is the better target and the better mystery.
 
 construction is not the same as comprehension/understanding/getting it! as an educator i like to approach this in a very simple way, construction is playful and it is an action and an environment that fosters and nurtures the senses of composition, function, behavior, error, regularity, symmetry, and more!! Pure understanding is quite naturally an emergent phenomenon on top of all that constructive activity.
 
@@ -59,6 +82,8 @@ It plays upon a basic suspicion people all over the world have semicorrectly had
 ## GEN
 
 gen should really be the meat of the paper, with simple clear empirical work, not theory.
+
+my goal is to make the headline image from the voyager paper on the timeline of minecraft creations but for universal mathematical structure, really to make that a paper focus, and to study whether it is the case that the GEN family of networks is well-shaped to implement the theory of FINXI and to actually generate universal mathematical structure which is downstream practical in real world use cases!
 
 we dont need to start with truly zero data. The point of that paper is just that scaling pretraining data isnt necessarily the thing needed to scale.
 
