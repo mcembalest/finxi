@@ -1,4 +1,4 @@
-# analysis (claude, terse, for reconstruction)
+# agent notes (terse, for reconstruction; see AGENTS.md)
 
 ## babel / solomonoff / chaitin
 - Borges' Babel: fixed-length books, finite → generalize: all finite strings
@@ -114,3 +114,16 @@
   - meng 2018: CCES 2016 survey (stats demo only)
 - no data: hutter, leike, solomonoff, chaitin, schmidhuber 2008, powerplay, hughes, schaeffer (thread)
 - not in refs but obvious for X: OEIS (integer sequences)
+
+## OEIS rediscovery (small, for fun)
+- question: which OEIS sequences show up in the log, when, in what order
+- data ✓: [stripped.gz](https://oeis.org/stripped.gz) (A-number + first terms, ~34 MB), [names.gz](https://oeis.org/names.gz); license CC BY-SA 4.0 ?
+- milestone subset ✓: keyword:core = 183 sequences ([search](https://oeis.org/search?q=keyword:core)) e.g. A000040 primes
+- match: creation output (integer list) vs OEIS prefixes
+  - require ≥ ~10 terms; short prefixes match too many
+  - byte substrate → values mod 256 (zero-data Table 1 matches "family (mod 256)"); int primitive avoids this
+- exclude X derivable trivially from primitives (constant, naturals) → per notes: only X absent at start
+- per sequence: first round seen, who made it (craftsman / apprentice), shown before made?
+- baseline: expected first round under index sampling (~2^K(x)) vs GEN
+- replays → order + variance of first appearance
+- keep small: core subset, exact prefix match, no fuzzy search
